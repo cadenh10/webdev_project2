@@ -163,13 +163,11 @@ iframe {
 }
 
 .video-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin: 20px 0;
 }
-
 .video-wrapper video {
+  display: inline-block;
   max-width: 100%;
   height: auto;
 }

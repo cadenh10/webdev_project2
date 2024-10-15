@@ -161,3 +161,15 @@ iframe {
     font-size: 1rem;
   }
 }
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.video-wrapper video {
+  max-width: 100%;
+  height: auto;
+}
